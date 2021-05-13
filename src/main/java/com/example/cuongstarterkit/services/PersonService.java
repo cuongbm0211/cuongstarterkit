@@ -1,8 +1,11 @@
 package com.example.cuongstarterkit.services;
 
-import org.springframework.stereotype.Service;
+//import com.example.cuongstarterkit.db.jpa.entities.Person;
 
-@Service
-public class PersonService {
+import com.example.cuongstarterkit.db.jpa.entities.Person;
 
+public interface PersonService {
+
+    Person create();
 }
+

@@ -1,6 +1,6 @@
-package com.example.cuongstarterkit.model;
+package com.example.cuongstarterkit.db.jpa.entities;
 
-import com.example.cuongstarterkit.model.entity.jpa.BaseEntity;
+import com.example.cuongstarterkit.db.jpa.entities.common.BaseEntity;
 import javax.persistence.Entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

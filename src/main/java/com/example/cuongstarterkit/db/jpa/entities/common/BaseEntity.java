@@ -1,4 +1,4 @@
-package com.example.cuongstarterkit.model.entity.jpa;
+package com.example.cuongstarterkit.db.jpa.entities.common;
 
 import java.time.Instant;
 import java.util.UUID;

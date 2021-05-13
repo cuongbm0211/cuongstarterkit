@@ -1,6 +1,6 @@
 //package com.example.cuongstarterkit;
 //
-//import com.example.cuongstarterkit.repository.useforjdbctemplate.BookRepository;
+//import com.example.cuongstarterkit.db.jpa.repository.useforjdbctemplate.BookRepository;
 //import java.math.BigDecimal;
 //import java.util.Arrays;
 //import java.util.List;
