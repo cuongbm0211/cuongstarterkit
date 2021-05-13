@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-@Entity(name = "person")
+@Entity(name = "persons")
 @Getter
 @Setter
 @NoArgsConstructor
