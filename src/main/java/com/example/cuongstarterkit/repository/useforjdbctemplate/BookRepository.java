@@ -1,4 +1,4 @@
-package com.example.cuongstarterkit.repository;
+package com.example.cuongstarterkit.repository.useforjdbctemplate;
 
 import com.example.cuongstarterkit.Book;
 import java.math.BigDecimal;
