@@ -16,7 +16,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public Person create() {
         Person cuong = new Person();
-        cuong.setName("Cuong");
+//        cuong.setName("Cuong");
 
         // Exception interceptor
         if (true) {

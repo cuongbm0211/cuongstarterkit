@@ -8,7 +8,7 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface PersonRepository extends CrudRepository<Person, UUID> {
 
-    List<Person> findPersonByName(String name);
+    List<Person> findPersonByFistName(String firstName);
 
     // find all with pagination
 

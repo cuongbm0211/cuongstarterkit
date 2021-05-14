@@ -14,5 +14,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Person extends BaseEntity {
 
-    String name;
+    String fistName;
+    String lastName;
+    Integer age;
 }
