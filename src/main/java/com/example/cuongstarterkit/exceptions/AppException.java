@@ -12,7 +12,7 @@ public class AppException extends RuntimeException {
     private final Object detailError;
     private final Throwable rootCause;
 
-    public AppException(ErrorResponse errorResponse) {
+    public AppException(ErrorResponseDto errorResponse) {
         this(errorResponse.getCode(), errorResponse.getMessage(), errorResponse.getHttpStatus());
     }
 

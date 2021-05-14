@@ -6,13 +6,13 @@ import org.springframework.http.HttpStatus;
 
 @Getter
 @Setter
-public class ErrorResponse {
+public class ErrorResponseDto {
     private final String code;
     private final String message;
     private final HttpStatus httpStatus;
     private final Throwable rootCause;
 
-    public ErrorResponse(String code, String message, HttpStatus httpStatus) {
+    public ErrorResponseDto(String code, String message, HttpStatus httpStatus) {
         super();
         this.code = code;
         this.message = message;
@@ -20,7 +20,7 @@ public class ErrorResponse {
         this.rootCause = null;
     }
 
-    public ErrorResponse(String code, String message, HttpStatus httpStatus,
+    public ErrorResponseDto(String code, String message, HttpStatus httpStatus,
         Throwable rootCause) {
         this.code = code;
         this.message = message;
